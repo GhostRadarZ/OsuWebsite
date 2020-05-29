@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+  background: #222;
+  background-image: url(osu_triangles_g.png);
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+  margin: 0 auto;
+}
+.home_home {
+  text-align: center;
+}
+.home_rank {
+  background-image: url(osu_r.png);
+  margin: 0 auto;
+  text-align: center;
+}
+.home_players {
+  background-image: url(osu_b.png);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.video{
+  position: relative;
+ overflow: hidden;
+ width: 60%;
+ height: 60%;
+ padding-bottom: 21.44px;
+}
+
+.top{
+  margin-top: 0;
+  padding-top: 21.44px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-bottom: 21.44px;
+  text-transform: uppercase;
+}
+
+.button2 {
+  background-color: #46393f;
+  color: white; 
+  border: 2px solid #46393f;
+}
+
+.button2:hover {
+  background-color: #695960;
+  color: white;
+  border: 2px solid #46393f;
+}
+
+.button3 {
+  background-color: #46393f;
+  color: white; 
+  border: 2px solid #46393f;
+}
+
+.button3:hover {
+  background-color: #695960;
+  color: white;
+  border: 2px solid #46393f;
+}
+
+.rank_leaderboard{
+  width: 80%;
+  height: auto;
+  padding-bottom: 21.44px;
+}
+
+.section{
+  width:100%; 
+  height: 25%;
+}
+
+.pfpic{
+  width:25%;
+  float:left;
+}
+
+.bio{
+  width:75%; 
+  float:right;
+}
+
+.pfimage{
+  text-align: right;
+  height: 85%;
+  width: auto;
+}
+
+.username{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.bio_text{
+  margin-bottom: 0px;
+  margin-top: 28px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+p{
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+h1{
+  font-size: 32px;
+}
+
+header {
+  background-color: #46393f;
+  /*background-image: url(osu_triangles_t.png);*/
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #46393f;
+  /*background-image: url(osu_triangles_t.png);*/
+  text-align: justify;
+}
+
+footer::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+.logo {
+  float: left;
+  padding: 0px 0;
+}
+
+.youtube {
+  float: right;
+  padding: 0px 0;
+}
+
+.github {
+  float: none;
+  text-align: center;
+  padding: 0px 0;
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 10vw;
+  padding-top: 38px;
+
+  position: relative;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: rgb(255, 255, 255);
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
